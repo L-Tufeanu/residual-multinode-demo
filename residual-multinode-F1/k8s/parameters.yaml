@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: residual-demo-parameters
+  namespace: residual-demo
+data:
+  B_MAX: "2000"
+  RESIDUAL_THRESHOLD: "1400"
+  LOW_RESIDUAL_THRESHOLD: "900"
+  PREDICTION_HORIZON: "5"
+  GC_INTERVAL: "15"
+  GC_RECLAIM_RATIO: "75"
+  MAX_CYCLES: "240"
+  CYCLE_DURATION: "0.05"
+  BURST_INTERVAL: "50"
+  BURST_DURATION: "8"
+  BATCH_SIZE: "80"
+  START_RESIDUALS: "100"
+  POST_RETRIES: "8"
+  RETRY_DELAY: "0.10"
