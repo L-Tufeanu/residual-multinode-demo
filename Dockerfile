@@ -1,4 +1,4 @@
-FROM python:3.12-alpine
+FROM python:3.12.x-alpine3.xx
 WORKDIR /app
 COPY app/ /app/
 RUN addgroup -S demo && adduser -S -G demo -u 10001 demo \
