@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# IDEs
+.idea/
+.vscode/
+
+# Generated experiment outputs
+results/UPF-noGC/
+results/UPF-withGC/
+
+# Logs
+*.log
