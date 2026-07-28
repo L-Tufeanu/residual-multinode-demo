@@ -54,7 +54,7 @@ The following simplifications are deliberate:
 - the master uses a transparent horizon-based projection instead of the complete learned predictor and its confidence gate;
 - runtime residual state is maintained locally by each node agent, while shared experiment parameters are supplied through a Kubernetes ConfigMap.
 
-The package preserves the multi-node topology, scenario logic, telemetry exchange, centralized coordination, and per-UPF cleanup path evaluated by the demo. Each scenario is executed with a distinct run identifier. The agent DaemonSet and master Deployment are recreated between scenarios so delayed telemetry from one run cannot enter the next run.
+The artifact preserves the multi-node topology, scenario logic, telemetry exchange, centralized coordination, and per-UPF cleanup path described in Section VI. Each scenario is executed with a distinct run identifier. The agent DaemonSet and master Deployment are recreated between scenarios so delayed telemetry from one run cannot enter the next run.
 
 ## Limitations
 
