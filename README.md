@@ -150,7 +150,7 @@ Validation requires, for each scenario:
 - exactly 720 telemetry samples in total;
 - one uninterrupted cycle sequence from 1 to 240 for every UPF;
 - no GC decisions in `UPF-noGC`;
-- at least one 75% GC action for every UPF in `UPF-withGC`;
+- at least one GC decision with a configured 75% reclaim ratio for every UPF in UPF-withGC;
 - valid non-negative RAI and TTC values;
 - one scenario and one run identifier across all 720 samples.
 
